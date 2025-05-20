@@ -144,7 +144,7 @@
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
                             <div class="header-logo">
-                                <a class="icon-masking" href="index.html">
+                                <a class="icon-masking" href="home-crm.html">
                                     <span data-mask-src="assets/img/logo-small.svg" class="mask-icon"></span>
                                     <img src="assets/img/logo-small.svg" alt="Webteck">
                                 </a>
@@ -153,7 +153,7 @@
                         <div class="col-auto">
                             <nav class="main-menu style2 d-none d-lg-inline-block">
                                 <ul>
-                                    <li><a href="index.html">Accueil</a></li>
+                                    <li><a href="home-crm.html">Accueil</a></li>
                                     <li><a href="shop.html">Produits</a></li>
                                     <li><a href="about.html">À propos</a></li>
                                 </ul>
@@ -273,18 +273,26 @@ About Area
     </div><!--==============================
 Service Area  
 ==============================-->
-    <section class="service-sec16 space" id="service-sec">
+    <style>
+        /* Cible les lignes avant et après le titre et les rend blanches */
+        #service-sec .sub-title3::before,
+        #service-sec .sub-title3::after {
+            background-color: #FFFFFF !important;
+        }
+    </style>
+    <section class="service-sec16 space" id="service-sec" style="background-color: #1F2937;">
         <div class="container th-container4">
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-7 col-sm-10 px-xl-4">
                     <div class="title-area text-center">
-                        <span class="sub-title sub-title3">Nos produits</span>
+
+                        <span class="sub-title sub-title3" style="color: #FFFFFF; font-size: 2em;">Nos produits</span>
 
                     </div>
                 </div>
             </div>
 
-            <div class="slider-area">
+            <div class="slider-area" >
                 <div class="swiper th-slider has-shadow" data-slider-options='{"loop":true,"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"2"},"1200":{"slidesPerView":"3"}}}'>
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
@@ -528,23 +536,23 @@ Price Area
 <!--        </div>-->
 <!--    </section>&lt;!&ndash;==============================-->
 
-    <footer class="footer-wrapper footer-layout8 footer-layout15 bg-black">
+    <footer class="footer-wrapper footer-layout8 footer-layout15" style="background-color: #1F2937;">
         <div class="container th-container4">
             <div class="widget-area">
                 <div class="row justify-content-between">
-                    <div class="col-12 col-xl-5">
-                        <div class="widget style2 footer-widget">
-                            <h3 class="widget_title style2">Abonnez-vous à l'infolettre</h3>
-                            <div class="newsletter-widget">
-                                <form class="newsletter-form">
-                                    <i class="fa-sharp fa-light fa-envelope"></i>
-                                    <input class="form-control" type="email" placeholder="Address Courriel" required="">
-                                    <button type="submit" class="th-btn">S'Abonner</button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-xl-auto">
+<!--                    <div class="col-12 col-xl-5" >-->
+<!--                        <div class="widget style2 footer-widget" style="background-color: #FFFFFF;">-->
+<!--                            <h3 class="widget_title style2" style="color: #1F2937;">Abonnez-vous à l'infolettre</h3>-->
+<!--                            <div class="newsletter-widget" >-->
+<!--                                <form class="newsletter-form" style="background-color: #F3F4F6; border-radius: 50px;" >-->
+<!--                                    <i class="fa-sharp fa-light fa-envelope" ></i>-->
+<!--                                    <input class="form-control" type="email" placeholder="Address Courriel" required=""  style="background: transparent !important; color: #F9FAFB;">>-->
+<!--                                    <button type="submit" class="th-btn">S'Abonner</button>-->
+<!--                                </form>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+                    <div class="col-md-4 col-xl-auto" style="margin-left: 250px">
                         <div class="widget widget_nav_menu footer-widget">
                             <h3 class="widget_title style2">Compagnie</h3>
                             <div class="menu-all-pages-container">
@@ -558,7 +566,7 @@ Price Area
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-xl-auto">
+                    <div class="col-md-4 col-xl-auto" style="margin-right: 250px">
                         <div class="widget widget_nav_menu footer-widget">
                             <h3 class="widget_title style2">Resources</h3>
                             <div class="menu-all-pages-container">
